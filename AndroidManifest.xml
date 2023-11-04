@@ -62,9 +62,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-    </application>
-<application>
+        
     <provider xmlns:tools="http://schemas.android.com/tools"
         android:name="androidx.startup.InitializationProvider"
         android:authorities="${applicationId}.androidx-startup"
