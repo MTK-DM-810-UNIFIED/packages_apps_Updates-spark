@@ -28,7 +28,7 @@ public final class Constants {
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "ro.spark.device";
-    static final String OTA_URL = "https://raw.githubusercontent.com/Spark-Devices/official_devices/spark/API/updater/%s.json";
+    static final String OTA_URL = "https://raw.githubusercontent.com/MTK-DM-810-UNIFIED/official_devices-spark/tree/pyro/API/updater/%s.json";
     static final String MAINTAINER_URL = "https://github.com/%s";
     static final String DOWNLOAD_WEBPAGE_URL = "https://spark-os.live/download/%s";
     static final String EXPORT_PATH = "SparkOS-Updates/";
