@@ -64,5 +64,11 @@
         </receiver>
 
     </application>
-
+<application>
+    <provider xmlns:tools="http://schemas.android.com/tools"
+        android:name="androidx.startup.InitializationProvider"
+        android:authorities="${applicationId}.androidx-startup"
+        tools:replace="android:authorities" />
+</application>
+        
 </manifest>
